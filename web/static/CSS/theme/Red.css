@@ -1,0 +1,275 @@
+body {
+    font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "Microsoft JhengHei", wf_SegoeUI, "Segoe UI", Segoe, "Segoe WP", Tahoma, Verdana, Ubuntu, "Bitstream Vera Sans", "DejaVu Sans", Tahoma, 微軟正黑體, "LiHei Pro", "WenQuanYi Micro Hei", "Droid Sans Fallback", "AR PL UMing TW", Roboto, "Helvetica Neue", "Hiragino Maru Gothic ProN", メイリオ, "ヒラギノ丸ゴ ProN W4", Meiryo, "Droid Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.logo {
+    height: 4.2rem;
+    width: 4.2rem;
+}
+
+.logoDiv {
+    margin-top: 1.2rem;
+}
+
+.menuHeight {
+    height: 5rem;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 0;
+    z-index:9999;
+    opacity: 0.8;
+}
+
+.flow {
+    display: inline-block;
+}
+
+.Right {
+    margin-right: 4rem;
+}
+
+.Home {
+    /*margin-left: 3rem;*/
+    font-size: 3rem;
+    margin-left: 3rem;
+    /*flex-direction: column;*/
+    /*justify-content: flex-start;*/
+
+}
+
+.username {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.box {
+    justify-content: space-between;
+}
+
+.lgBtn {
+
+}
+
+.rgBtn {
+    margin-right: 1rem;
+}
+
+.cartBtn {
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-right: 1rem;
+}
+
+.cartTable {
+    font-size: 1.25rem;
+    /*width: 100rem;*/
+    justify-content: space-around;
+    /*margin-right: 15rem;*/
+    /*margin-left: 15rem;*/
+}
+
+.subTotal {
+    padding-left: 0.5rem;
+}
+
+.subBtn {
+    /*padding-left: 1rem;*/
+}
+
+.ONE {
+    background: url(/../../static/image/index.jpg) no-repeat fixed center center/cover;
+    /* no-repeat -> 不重複
+       fixed -> 圖片不要跟著滾輪動
+       center center -> 將圖片定位到中心
+       cover -> 圖片填滿區塊
+    */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    color: rgba(205, 92, 92, 0.8);
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.Search {
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    margin-top: 1rem;
+}
+
+.contentSpace {
+    height: 5%;
+    width: 100%;
+}
+
+.mainContent {
+    justify-content: center;
+}
+
+.List {
+    margin-right: 4rem;
+}
+
+.productPhoto {
+    width: 10rem;
+    height: 10rem;
+    margin: 1em;
+}
+
+.Title {
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.endSpace {
+    height: 20%;
+    width: 100%;
+}
+
+.Card {
+    padding: 0 2rem 2rem 2rem;
+}
+
+.Border {
+    border-radius: 0.5em;
+    border: 1px solid rgba(228, 228, 228, 0.5);
+    margin: 1rem ;
+    padding: 1rem;
+    justify-content: space-between;
+    color: indianred;
+    background-color: #FFFFFF;
+}
+
+.Border:hover {
+    border: 1px solid #fcfcfc;
+    background-color: #fcfcfc;
+    box-shadow:0 0 15px rgba(205, 92, 92, 0.8);
+}
+
+.myValue {
+    font-size: 1.5rem;
+!important;
+}
+
+.myHeader {
+    font-size: 3rem;
+!important;
+}
+
+.myDescription {
+    font-size: 1.5rem;
+!important;
+}
+
+.myPositive {
+    color: green;
+}
+
+.myNegative {
+    color: red;
+}
+
+.VButtons {
+    margin: 1em;
+}
+
+.productWidth {
+    width: 30rem;
+    margin-right: 1rem;
+!important;
+}
+
+.end {
+    background-color: indianred;
+    color: white;
+    padding:4rem;
+    opacity: 0.8;
+    text-align:center;
+    font-size: 1.5rem;
+    !important;
+}
+
+.someSpace {
+    height: 3rem;
+}
+
+.avatar {
+    width: 20rem;
+    height: 20rem;
+    margin: 1em;
+}
+
+.profile {
+    margin-right: 4rem;
+}
+
+.formWide {
+    width: 50%;
+}
+
+.Form {
+    padding: 2rem;
+}
+
+.contentWide {
+    width: 20rem;
+}
+
+.contentSpace {
+    height: 5%;
+    width: 100%;
+}
+
+.accountTopSpace {
+    height: 1%;
+}
+
+.myTag {
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-right: 40%;
+    padding-left: 40%;
+}
+
+.tagTheme {
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: indianred;
+    color: #FFFFFF;
+    text-align: center;
+    box-shadow:0 0 9px indianred;
+}
+
+.Border:hover > .content > .description > .P {
+    color: indianred;
+    !important;
+}
+
+.mySearchView {
+    top: 5rem;
+    left: 27%;
+    width: 15%;
+    align-items: center;
+    position: fixed;
+    margin-bottom: 0;
+    z-index:9999;
+    opacity: 0.8;
+    font-size: 1.5rem;
+    border: 0.5rem;
+    background-color: white;
+}
+
+.viewSearchEnd {
+    text-indent:0.5em;
+}
